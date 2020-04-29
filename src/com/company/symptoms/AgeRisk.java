@@ -1,4 +1,4 @@
-package com.company.validSymptoms;
+package com.company.symptoms;
 
 
 public class AgeRisk {
@@ -10,10 +10,10 @@ public class AgeRisk {
         if (age <= 19){
             riskPacient = 0.2;
         }
-        else if (age >= 20 && age <= 59){
+        else if (age <= 59){
             riskPacient = 0.85;
         }
-        else if (age >= 60 && age <=79){
+        else if (age <= 79){
             riskPacient = 5.8;
         } else {
             riskPacient = 14.8;
